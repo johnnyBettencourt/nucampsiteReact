@@ -1,11 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
 import './App.css';
 import { Container, Navbar, NavbarBrand } from 'reactstrap';
 import NucampLogo from './app/assets/img/logo.png';
-import CampsiteCard from './features/campsites/CampsiteCard.js';
-import { CAMPSITES } from './app/shared/CAMPSITES';
+import CampsiteList from './features/campsites/CampsitesList';
 
 function App() {
   return (
@@ -17,7 +14,7 @@ function App() {
               </NavbarBrand>
           </Container>
       </Navbar>
-      <CampsiteCard campsite={CAMPSITES[1]}/>
+      <CampsiteList />
     </div>
   );
 }
