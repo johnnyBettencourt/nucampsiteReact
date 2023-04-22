@@ -15,4 +15,4 @@ const CampsiteList = () =>{
         </Row>
     );
 }
-export default CampsiteList
+export default CampsiteList;
