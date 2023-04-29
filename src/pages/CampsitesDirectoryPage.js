@@ -1,10 +1,12 @@
 import { Container, } from "reactstrap";
 import CampsiteList from "../features/campsites/CampsitesList";
+import SubHeader from "../components/SubHeader";
 
 const CampsitesDirectoryPage = () => {
     return (
         <Container>
-                    <CampsiteList />
+            <SubHeader current='Directory' />
+            <CampsiteList />
         </Container>
     );
 };
