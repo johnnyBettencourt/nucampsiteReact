@@ -6,7 +6,7 @@ export const validateContactForm = (values) => {
     } else if (values.firstName.length < 2) {
         errors.firstName = 'Must be at least 2 characters.';
     } else if (values.firstName.length > 15) {
-        errors.firstName = 'Must be 15 characters or less';
+        errors.firstName = 'Must be 15 characters or less.';
     }
 
     if (!values.lastName) {
@@ -14,7 +14,7 @@ export const validateContactForm = (values) => {
     } else if (values.lastName.length < 2) {
         errors.lastName = 'Must be at least 2 characters.';
     } else if (values.lastName.length > 15) {
-        errors.lastName = 'Must be 15 characters or less';
+        errors.lastName = 'Must be 15 characters or less.';
     }
 
     const reg = /^\d+$/;
