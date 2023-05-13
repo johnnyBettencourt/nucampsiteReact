@@ -46,10 +46,11 @@ const ContactForm = () => {
                             placeholder='Last Name'
                             className='form-control'
                         />
-                    </Col>
-                    <ErrorMessage name='lastName'>
+                        <ErrorMessage name='lastName'>
                         {(msg) => <p className='text-danger'>{msg}</p>}
-                    </ErrorMessage>
+                        </ErrorMessage>
+                    </Col>
+                    
                 </FormGroup>
                 <FormGroup row>
                     <Label htmlFor='phoneNum' md='2'>Phone Number</Label>
