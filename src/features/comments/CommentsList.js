@@ -3,7 +3,6 @@ import { Col } from 'reactstrap';
 import Comment from './Comment';
 import CommentForm from './CommentForm';
 import { selectCommentsByCampsiteId } from './commentsSlice';
-import { createSearchParams } from 'react-router-dom';
 
 const CommentsList = ({ campsiteId }) => {
     const comments = useSelector(selectCommentsByCampsiteId(campsiteId));
