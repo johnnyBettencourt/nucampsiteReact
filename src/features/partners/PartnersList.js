@@ -1,3 +1,4 @@
+import React from "react";
 import { useSelector } from "react-redux";
 import { Col } from "reactstrap";
 import Partner from "./Partner";

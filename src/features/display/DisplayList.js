@@ -1,3 +1,4 @@
+import React from "react";
 import { Col, Row } from "reactstrap";
 import AnimatedDisplayCard from './AnimatedDisplayCard';
 import { selectFeaturedPartner } from "../partners/partnersSlice";
