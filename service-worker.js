@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nucampsiteReact/precache-manifest.18034f2b1f2bfef0cc986520d31abe3c.js"
+  "/nucampsiteReact/precache-manifest.ac97c28f0fbb744935fb690084b42753.js"
 );
 
 workbox.clientsClaim();
