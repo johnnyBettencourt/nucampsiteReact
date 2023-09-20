@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/nucamp/precache-manifest.6ea3b1397135ee55a62e270bf806f228.js"
+  "/nucampsiteReact/precache-manifest.18034f2b1f2bfef0cc986520d31abe3c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/nucamp/index.html", {
+workbox.routing.registerNavigationRoute("/nucampsiteReact/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
