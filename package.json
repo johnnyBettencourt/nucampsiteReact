@@ -1,7 +1,7 @@
 {
   "name": "nucampsite",
   "version": "0.1.0",
-  "homepage": "https://johnnybettencourt.github.io/nucamp",
+  "homepage": "https://johnnybettencourt.github.io/nucampsiteReact/",
   "private": false,
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
